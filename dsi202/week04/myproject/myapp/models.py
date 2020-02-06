@@ -16,3 +16,4 @@ class Rent(models.Model):
     stop=models.DateTimeField()
     cost=models.DecimalField(max_digits=10,decimal_places=2)
     property=models.ForeignKey(Property, on_delete=models.CASCADE)
+    property=models.ForeignKey(Customer, on_delete=models.CASCADE)
