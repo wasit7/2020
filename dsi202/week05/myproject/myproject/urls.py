@@ -20,4 +20,6 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('current_datetime/', views.current_datetime, name='current_datetime'),
+    path('home/', views.home, name='home'),
+    path('', views.home, name='home'),
 ]
