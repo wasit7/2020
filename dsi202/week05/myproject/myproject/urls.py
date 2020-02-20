@@ -23,4 +23,5 @@ urlpatterns = [
     path('home/', views.home, name='home'),
     path('', views.home, name='home'),
     path('list/', views.list, name='list'),
+    path('detail/<int:property_id>/', views.detail, name='detail'),
 ]
