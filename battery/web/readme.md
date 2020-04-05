@@ -3,8 +3,6 @@
 docker build -t battery_web:lastest .
 docker run -d -p 5555:5000 battery_web:lastest
 
-
-# test post
 ```
 
 # Test post
