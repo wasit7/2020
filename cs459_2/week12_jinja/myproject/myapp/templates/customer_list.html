@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+<title>{% block title %}Customers{% endblock %}</title>
+{% block content %}
+    {% for i in customers %}
+        <li> name:{{i.name}}, dob:{{i.dob}}, born_in_month:{{i.dob.month}}</li>
+    {% endfor %}
+{% endblock %}

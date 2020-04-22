@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+{% for i in products %}
+  <li> name:{{i.name}}, wieght:{{i.weight}}, price:{{i.price}}</li>
+{% endfor %}
+
+----------------
+
+{% for i in customers %}
+  <li> name:{{i.name}}, dob:{{i.dob}}, born_in_month:{{i.dob.month}}</li>
+{% endfor %}
+
+</body>
+</html>
