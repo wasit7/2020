@@ -1,5 +1,3 @@
-#https://bitworks.software/en/scalable-realtime-opencv-processing-with-zeromq.html
-
 import cv2
 import zmq
 from time import time
